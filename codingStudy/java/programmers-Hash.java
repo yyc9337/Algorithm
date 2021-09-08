@@ -17,9 +17,7 @@ class Solution {
         for(i=0; i<participant.length; i++){
             if(!participant[i].equals(completion[i])){
                 return participant[i];
-
             }
-
         }
         return participant[i];
     }
