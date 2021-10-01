@@ -1,11 +1,19 @@
 package java;
 
-class Solution {
+
+class Solution2 {
     public int[] solution(int[] array, int[][] commands) {
-        int[] answer = {};
+        
+        int[] i = commands[0];
+        int[] j = commands[1];
+        int[] k = commands[2];
+
+   
+
+
+
         
         
         
-        return answer;
     }
 }
