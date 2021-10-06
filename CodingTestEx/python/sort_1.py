@@ -11,7 +11,7 @@ def solution(array, commands):
         sort = sorted(temp)
         #print(sort)
         answer.append(sort[commands[i][2]-1])
-        print(answer)    
+        
     return answer    
 
 
