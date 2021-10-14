@@ -1,18 +1,15 @@
 phone_book = ["119", "97674223", "1195524421"]
 
 
-aa = phone_book[2].find(phone_book[0])
-
-i = 0
-while range(len(phone_book))  :
-    i = i + 1
-    if phone_book[i].find(phone_book[0]) != 0 :
+for i in range(len(phone_book)) :
+    i = 1    
+    if phone_book[i].find(phone_book[0]) == -1 :
         print(True)
-        break
-    else :
-        print(False)    
+    else : 
+        print(False)  
 
 
 
+        
 
 
