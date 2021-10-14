@@ -1,12 +1,13 @@
-phone_book = ["119", "97674223", "1195524421"]
+clothes = [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]
 
 
-for i in range(len(phone_book)) :
-    i = 1    
-    if phone_book[i].find(phone_book[0]) == -1 :
-        print(True)
-    else : 
-        print(False)  
+print(range(0, len(clothes)))
+
+def solution(phone_book):
+    for i in range(1,len(phone_book)) :    
+        if phone_book[i].find(phone_book[0]) != -1 :
+            return False
+    return True
 
 
 
