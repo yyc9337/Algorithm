@@ -1,7 +1,5 @@
-clothes = [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]
+phone_book = ["119", "97674223", "1195524421"]
 
-
-print(range(0, len(clothes)))
 
 def solution(phone_book):
     for i in range(1,len(phone_book)) :    
