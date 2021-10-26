@@ -84,6 +84,7 @@ vif_func <- function(in_frame,thresh=10, trace=F,...){
 data_custom <- vif_func(X, thresh=10, trace=T) 
 #남은 데이터 갯수 확인하기
 length(data_custom)
+##
 
 
 ```
